@@ -4,7 +4,13 @@
 
 ---
 
-## 🌐 Overview / 概览
+## 💎 Milestone Release
+**`feat: complete PAIV Protocol V1.0 with Human-AI Co-Creation Statement`**
+*This commit marks the formal finalization of the PAIV foundational framework (V1.0).*
+
+---
+
+## 🌍 Overview / 概览
 
 ### English
 PAIV is a standardized, user-centric protocol designed to ensure **Digital Identity Sovereignty**. In an era of fragmented AI ecosystems, PAIV enables your memory, preferences, and core values to migrate seamlessly across different agents, devices, and platforms. It is not just a data format; it is a declaration that your digital self belongs to you, not the platform.
