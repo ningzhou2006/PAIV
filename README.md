@@ -1,72 +1,53 @@
-# PAIV: Personal AI Identity Vector
-> **Transforming AI identity from a vague concept into a measurable, engineerable system.**
+# PAIV Protocol
+**Personal AI Identity & Values Protocol** *A portable, user-owned identity layer for the Age of AI Agents.*
 
 ---
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19432383.svg)](https://doi.org/10.5281/zenodo.19432383)
-[![Status](https://img.shields.io/badge/Status-Public_RFC-blue.svg)](./protocol/SPECIFICATION.md)
-[![License](https://img.shields.io/badge/Framework-PAIV--Lite-green.svg)](https://github.com/Taigulong67/PAIV-Lite)
+## 🌍 Overview (English)
 
-## 🧠 Overview
+PAIV (Personal AI Identity & Values) is an open-source protocol designed to solve the problem of digital identity fragmentation. In an era where we interact with multiple AI agents (e.g., ChatGPT, Gemini, OpenClaw), your memory, preferences, and values should not be locked within a single platform. 
 
-**PAIV (Personal AI Identity Vector)** is a pioneering framework for modeling and controlling behavioral patterns in Large Language Models (LLMs). 
+PAIV provides a standardized "continuity layer," enabling your digital self to migrate freely across different AI systems, devices, and environments.
 
-While prompt engineering enables flexible control, its effects are often transient and unstructured. PAIV addresses this by introducing **AI Identity** as a stable, measurable, and reproducible behavioral configuration induced at the interaction layer.
+### 🏗️ Repository Structure
+- **[Charter](./charter/CHARTER.md)**: Defines digital sovereignty and user rights.
+- **[Protocol](./protocol/SPECIFICATION.md)**: Technical details of the L00-L05 six-layer model.
+- **[Schemas](./schemas/)**: Machine-readable JSON files for data validation.
+- **[Governance](./governance/GOVERNANCE.md)**: Rules for protocol evolution (PIP).
+- **[Implementers](./implementers/GUIDE.md)**: A guide for developers to integrate PAIV.
+- **[Extensions](./extensions/)**: Advanced modules like Agent Continuity.
 
-### Why Identity Engineering?
-It lies at the intersection of **LLM Evaluation**, **Behavioral Science**, and **Prompt-based Control**. PAIV reframes AI behavior from a reactive phenomenon into a systematic engineering target.
-
----
-
-## 📂 Repository Structure (Project Pillars)
-
-This repository is organized into three core pillars to ensure the protocol's sovereignty and technical rigor:
-
-* **[📜 Charter](./charter/CHARTER.md)**: The "Digital Constitution" defining user rights, data sovereignty, and the ethical boundaries of AI identity.
-* **[⚙️ Protocol Specification](./protocol/SPECIFICATION.md)**: The technical blueprint (L00-L05 model) for identity portability and structured behavioral traits.
-* **[⚖️ Governance](./governance/GOVERNANCE.md)**: The framework for community contribution and the PAIV Improvement Proposal (PIP) process.
+### 🚀 Status
+- **Version**: V1.0  
+- **Stage**: Public RFC (Early Adoption)
+- **Founder**: Ning
 
 ---
 
-## ⚙️ Core Framework
+## 🌏 项目概述 (中文)
 
-1.  **Identity Specification**: Formally define structured traits (reasoning style, consistency patterns).
-2.  **Behavioral Measurement**: Quantitative evaluation across Structure, Cognition, and Execution.
-3.  **Comparative Analysis**: Statistical comparison against baseline model behaviors.
+PAIV (Personal AI Identity & Values) 协议是一个开源的、以用户为核心的身份层标准。它旨在解决 AI 时代个人数据的“平台孤岛”问题。当我们在不同的 AI 智能体（如 ChatGPT、Gemini、OpenClaw）之间切换时，您的记忆、偏好和价值观不应被锁死在特定的平台中。
 
-### 📊 Key Results
-Initial experiments indicate a **+0.31 improvement** in overall performance, with significant gains in structural clarity and behavioral consistency.
+PAIV 为数字世界提供了一个通用的“连续性层”，让您的数字自我可以在不同的 AI 系统、设备和环境之间自由迁移。
 
----
+### 📂 仓库结构说明
+- **[核心宪章 (Charter)](./charter/CHARTER.md)**: 定义数字主权与用户基本权利。
+- **[技术规范 (Protocol)](./protocol/SPECIFICATION.md)**: 详细定义 L00-L05 六层身份模型。
+- **[数据结构 (Schemas)](./schemas/)**: 机器可读的 JSON 校验文件，确保数据合规。
+- **[治理框架 (Governance)](./governance/GOVERNANCE.md)**: 协议演进机制与版本控制。
+- **[实现指南 (Implementers)](./implementers/GUIDE.md)**: 开发者接入 PAIV 的保姆级教程。
+- **[扩展模块 (Extensions)](./extensions/)**: 包含智能体连续性等前瞻性扩展方案。
 
-## 🔧 Implementations & Applications
-
-### [PAIV-Lite](https://github.com/Taigulong67/PAIV-Lite)
-The practical implementation layer for real-world scenarios. It bridges the gap between theoretical identity concepts and executable workflows.
-
-### 🌐 Web_A (Coming Soon)
-A user-facing web application designed to bring identity-driven AI interactions to a broader audience, from beginners to advanced practitioners.
-
----
-
-## 📄 Academic Reference
-If you use PAIV in your research, please cite our work:
-* **DOI**: [10.5281/zenodo.19432383](https://doi.org/10.5281/zenodo.19432383)
-* **Author**: Ning Zhou, Independent Researcher
+### 🛠️ 内部档案 (Internal)
+*仅供项目组参考，记录了协议的诞生轨迹：*
+- [决策日志](./internal/DECISION_LOG.md) | [人机协作记录](./internal/AI_COLLABORATION.md) | [项目演进史](./internal/PROJECT_ARCHIVE.md)
 
 ---
 
-## 🇨🇳 中文简介 (Chinese Summary)
+## 🤝 Contributing / 参与贡献
+We welcome proposals through **Issues** or **Pull Requests**. Please refer to the [Governance](./governance/GOVERNANCE.md) section for the PIP (PAIV Improvement Proposal) process.
 
-PAIV（Personal AI Identity Vector）是一个用于刻画与控制大语言模型行为模式的量化框架。
-
-* **核心思想**：将“AI身份”从模糊概念转化为可定义、可测量、可优化的工程对象。
-* **技术架构**：通过结构化的行为配置，在交互层诱导稳定且可复现的行为模式。
-* **项目构成**：
-    * **[数字宪章](./charter/CHARTER.md)**：确立用户对身份数据的绝对主权。
-    * **[技术规格](./protocol/SPECIFICATION.md)**：定义 L00-L05 六层身份模型。
-    * **[治理框架](./governance/GOVERNANCE.md)**：定义标准的改进提案流程 (PIP)。
+我们欢迎通过 **Issue** 或 **Pull Request** 提交改进建议。请参考治理框架中的 PIP 流程。
 
 ---
-
-© 2026 Ning Zhou. Maintained under the PAIV Project.
+**Digital identity is an extension of the individual. It must remain under human control.** **数字身份是人类个体的延伸，它必须始终处于人类的控制之下。**
