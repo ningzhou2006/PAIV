@@ -1,158 +1,72 @@
 # PAIV: Personal AI Identity Vector
-
-A measurable framework for AI identity and behavioral consistency in large language models.
-
-> Transforming AI identity from a vague concept into an engineerable system.
+> **Transforming AI identity from a vague concept into a measurable, engineerable system.**
 
 ---
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19432383.svg)](https://doi.org/10.5281/zenodo.19432383)
+[![Status](https://img.shields.io/badge/Status-Public_RFC-blue.svg)](./protocol/SPECIFICATION.md)
+[![License](https://img.shields.io/badge/Framework-PAIV--Lite-green.svg)](https://github.com/Taigulong67/PAIV-Lite)
 
 ## 🧠 Overview
 
-PAIV (Personal AI Identity Vector) is a framework for modeling and controlling behavioral patterns in large language models.
+**PAIV (Personal AI Identity Vector)** is a pioneering framework for modeling and controlling behavioral patterns in Large Language Models (LLMs). 
 
-While prompt engineering enables flexible control over model outputs, its effects are often transient, unstructured, and difficult to reproduce. PAIV addresses this limitation by introducing the concept of *AI identity* as a stable and measurable behavioral configuration.
+While prompt engineering enables flexible control, its effects are often transient and unstructured. PAIV addresses this by introducing **AI Identity** as a stable, measurable, and reproducible behavioral configuration induced at the interaction layer.
 
-Within this framework, identity is not treated as an intrinsic property of a model, but as a structured pattern induced at the interaction layer—one that can be specified, evaluated, and systematically optimized.
-
-By combining ideas from LLM evaluation, behavioral science, and prompt-based control, PAIV reframes AI behavior from a reactive phenomenon into an engineerable system.
-
-This perspective enables:
-
-- Consistent behavior across tasks  
-- Quantifiable evaluation of output quality  
-- Systematic comparison between identity configurations  
-
-Ultimately, PAIV aims to establish identity as a first-class object in AI systems—bridging the gap between prompt-level control and system-level behavior.
----
-
-## 📄 Paper
-
-* DOI (Zenodo): https://doi.org/10.5281/zenodo.19432383
+### Why Identity Engineering?
+It lies at the intersection of **LLM Evaluation**, **Behavioral Science**, and **Prompt-based Control**. PAIV reframes AI behavior from a reactive phenomenon into a systematic engineering target.
 
 ---
 
-## 🔬 What is Identity Engineering?
+## 📂 Repository Structure (Project Pillars)
 
-Identity Engineering is the systematic study and design of stable behavioral patterns in AI systems.
+This repository is organized into three core pillars to ensure the protocol's sovereignty and technical rigor:
 
-It lies at the intersection of:
-
-- LLM Evaluation  
-- Behavioral Science  
-- Prompt-based Control  
-
-Within this framework, AI identity is not treated as an intrinsic property of a model, but as:
-
-> A structured, reproducible, and measurable configuration of behavioral characteristics induced at the interaction layer.
-
-This perspective reframes identity from an abstract concept into an engineering target—one that can be specified, evaluated, and optimized.
+* **[📜 Charter](./charter/CHARTER.md)**: The "Digital Constitution" defining user rights, data sovereignty, and the ethical boundaries of AI identity.
+* **[⚙️ Protocol Specification](./protocol/SPECIFICATION.md)**: The technical blueprint (L00-L05 model) for identity portability and structured behavioral traits.
+* **[⚖️ Governance](./governance/GOVERNANCE.md)**: The framework for community contribution and the PAIV Improvement Proposal (PIP) process.
 
 ---
 
 ## ⚙️ Core Framework
 
-PAIV consists of three core components:
+1.  **Identity Specification**: Formally define structured traits (reasoning style, consistency patterns).
+2.  **Behavioral Measurement**: Quantitative evaluation across Structure, Cognition, and Execution.
+3.  **Comparative Analysis**: Statistical comparison against baseline model behaviors.
 
-### 1. Identity Specification
-
-Formally define structured behavioral traits, such as reasoning style, response structure, and consistency patterns.
-
-### 2. Behavioral Measurement
-
-Quantitatively evaluate model outputs across multiple dimensions:
-
-- Structure  
-- Cognition  
-- Execution  
-- Consistency  
-
-### 3. Comparative Analysis
-
-Systematically compare identity-conditioned outputs against baseline behavior using statistical methods.
+### 📊 Key Results
+Initial experiments indicate a **+0.31 improvement** in overall performance, with significant gains in structural clarity and behavioral consistency.
 
 ---
 
-## 📊 Key Results
+## 🔧 Implementations & Applications
 
-Initial experiments indicate:
+### [PAIV-Lite](https://github.com/Taigulong67/PAIV-Lite)
+The practical implementation layer for real-world scenarios. It bridges the gap between theoretical identity concepts and executable workflows.
 
-- +0.31 improvement in overall performance  
-- Increased structural clarity  
-- Improved behavioral consistency  
-
----
-
-## 🚀 Future Directions
-
-- Stability and robustness of identity  
-- Cross-model transferability  
-- Independent evaluation frameworks  
-- Long-term identity (multi-turn interaction)  
-- Theoretical foundations of identity  
+### 🌐 Web_A (Coming Soon)
+A user-facing web application designed to bring identity-driven AI interactions to a broader audience, from beginners to advanced practitioners.
 
 ---
 
-## 🔧 PAIV-Lite
-
-PAIV-Lite is the practical implementation layer of the PAIV framework, enabling identity specification, evaluation, and experimentation in real-world scenarios.
-
-It provides tools for applying identity-driven approaches to large language models, bridging the gap between theoretical concepts and executable workflows.
-
-> From identity definition to executable behavior.
-
-Maintained under a separate account for product and experimental development.
-
-👉 https://github.com/Taigulong67/PAIV-Lite
----
-
-## 🌐 Applications (Coming Soon)
-
-PAIV is being extended into user-facing applications that bring identity-driven AI interactions to a broader audience.
-
-Planned directions include:
-
-- Web-based applications designed for general users  
-- Identity-driven AI interfaces for consistent and personalized interactions  
-
-> The first application (Web_A) is currently under development and expected to launch soon.  
-> Designed for users with varying levels of familiarity with AI, from beginners to advanced practitioners.
+## 📄 Academic Reference
+If you use PAIV in your research, please cite our work:
+* **DOI**: [10.5281/zenodo.19432383](https://doi.org/10.5281/zenodo.19432383)
+* **Author**: Ning Zhou, Independent Researcher
 
 ---
 
-## 🌍 Why this matters
+## 🇨🇳 中文简介 (Chinese Summary)
 
-As AI systems become more capable, controlling *what* they do is no longer sufficient—we must also understand and shape *how* they behave.
+PAIV（Personal AI Identity Vector）是一个用于刻画与控制大语言模型行为模式的量化框架。
 
-PAIV introduces identity as a measurable and engineerable layer, enabling consistent, interpretable, and transferable behavior across AI systems.
-
-By turning identity into a first-class object, PAIV opens the possibility of moving beyond prompt tuning toward structured behavioral design—laying the foundation for more reliable and human-aligned AI systems.
-
----
-
-## 👤 Author
-
-Ning Zhou  
-Independent Researcher (PAIV Project)
+* **核心思想**：将“AI身份”从模糊概念转化为可定义、可测量、可优化的工程对象。
+* **技术架构**：通过结构化的行为配置，在交互层诱导稳定且可复现的行为模式。
+* **项目构成**：
+    * **[数字宪章](./charter/CHARTER.md)**：确立用户对身份数据的绝对主权。
+    * **[技术规格](./protocol/SPECIFICATION.md)**：定义 L00-L05 六层身份模型。
+    * **[治理框架](./governance/GOVERNANCE.md)**：定义标准的改进提案流程 (PIP)。
 
 ---
 
-## 🇨🇳 中文简介
-
-PAIV（Personal AI Identity Vector）是一个用于刻画与控制大语言模型行为模式的框架。
-
-它将“AI身份”从一个模糊概念，转化为一个**可定义、可测量且可优化**的工程对象。
-
-其核心思想包括：
-
-- 将身份建模为结构化的行为配置  
-- 在交互层诱导稳定且可复现的行为模式  
-- 通过量化评估实现可比较与系统性优化  
-
-PAIV融合了以下方向：
-
-- 大语言模型评估  
-- 行为科学  
-- 提示控制  
-
-👉 中文完整版论文（PDF）可在 Zenodo 查看  
-👉 https://doi.org/10.5281/zenodo.19432383
+© 2026 Ning Zhou. Maintained under the PAIV Project.
