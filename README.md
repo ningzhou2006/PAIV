@@ -14,6 +14,16 @@
 
 ### English
 PAIV is a standardized, user-centric protocol designed to ensure **Digital Identity Sovereignty**. In an era of fragmented AI ecosystems, PAIV enables your memory, preferences, and core values to migrate seamlessly across different agents, devices, and platforms. It is not just a data format; it is a declaration that your digital self belongs to you, not the platform.
+---
+
+## 🔗 PAIV Ecosystem
+
+PAIV is designed as a multi-layer system:
+
+PAIV Lite (Execution Layer):  
+https://github.com/Taigulong67/PAIV-Lite
+
+---
 
 ### 中文
 PAIV (个人 AI 身份与价值观协议) 是一个以用户为核心的开源标准，旨在实现**“数字身份主权”**。在 AI 生态割裂的今天，PAIV 允许您的记忆、偏好和核心价值观在不同的智能体、设备和平台之间无缝迁移。它不仅是一种数据格式，更是一份技术宣言：您的数字自我属于您自己，而非任何平台。
